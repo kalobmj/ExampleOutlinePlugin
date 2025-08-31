@@ -45,6 +45,9 @@ public class ExampleObjectOutlineOverlay extends Overlay
 
             Shape hull = obj.getConvexHull();
 
+            // our test using obj.getClickbox();
+            Shape clickbox = obj.getClickbox();
+
             // Optional fill (translucent)
             if (cfg.fillColor().getAlpha() > 0)
             {
